@@ -1,0 +1,10 @@
+D:\WP\DND_Dices\Kostky\bin\Debug\Kostky.exe.config
+D:\WP\DND_Dices\Kostky\bin\Debug\Kostky.exe
+D:\WP\DND_Dices\Kostky\bin\Debug\Kostky.pdb
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.csprojAssemblyReference.cache
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.Gameboard.resources
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.Properties.Resources.resources
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.csproj.GenerateResource.cache
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.csproj.CoreCompileInputs.cache
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.exe
+D:\WP\DND_Dices\Kostky\obj\Debug\Kostky.pdb

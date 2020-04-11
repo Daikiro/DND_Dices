@@ -21,36 +21,43 @@ namespace Kostky
         private void buttk4_Click(object sender, EventArgs e)
         {
             k_switcher(4);
+            k_value(1,5,4);
         }
 
         private void buttk6_Click(object sender, EventArgs e)
         {
             k_switcher(6);
+            k_value(1,7,6);
         }
 
         private void buttk8_Click(object sender, EventArgs e)
         {
             k_switcher(8);
+            k_value(1,9,8);
         }
 
         private void buttk10_Click(object sender, EventArgs e)
         {
             k_switcher(10);
+            k_value(1,11,10);
         }
 
         private void buttk12_Click(object sender, EventArgs e)
         {
             k_switcher(12);
+            k_value(1,13,12);
         }
 
         private void buttk20_Click(object sender, EventArgs e)
         {
             k_switcher(20);
+            k_value(1,21,20);
         }
 
         private void buttkperc_Click(object sender, EventArgs e)
         {
             k_switcher(0);
+            k_value(0,110,0);
         }
 
         private void k_switcher(int value)
@@ -78,6 +85,40 @@ namespace Kostky
                     break;
                 case 0:
                     lblDice.Text = baseValue + "k perc";
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void k_value (int minValue, int maxValue, int k)
+        {
+            Random random = new Random();
+            
+
+            switch (k)
+            {
+                case 4:
+                    lblNumber.Text = Convert.ToString(random.Next(minValue, maxValue));
+                    break;
+                case 6:
+                    lblNumber.Text = Convert.ToString(random.Next(minValue, maxValue));
+                    break;
+                case 8:
+                    lblNumber.Text = Convert.ToString(random.Next(minValue, maxValue));
+                    break;
+                case 10:
+                    lblNumber.Text = Convert.ToString(random.Next(minValue, maxValue));
+                    break;
+                case 12:
+                    lblNumber.Text = Convert.ToString(random.Next(minValue, maxValue));
+                    break;
+                case 20:
+                    lblNumber.Text = Convert.ToString(random.Next(minValue, maxValue));
+                    break;
+                case 0:
+                    int value = (random.Next(minValue, maxValue)/10)*10;
+                    lblNumber.Text = Convert.ToString(value + " %");
                     break;
                 default:
                     break;

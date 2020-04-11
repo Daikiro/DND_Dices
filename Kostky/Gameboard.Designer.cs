@@ -132,10 +132,10 @@
             // lblNumber
             // 
             this.lblNumber.AutoSize = true;
-            this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblNumber.Location = new System.Drawing.Point(246, 224);
+            this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNumber.Location = new System.Drawing.Point(203, 236);
             this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(0, 91);
+            this.lblNumber.Size = new System.Drawing.Size(0, 55);
             this.lblNumber.TabIndex = 7;
             // 
             // lblDice
