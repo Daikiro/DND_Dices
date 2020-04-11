@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gameboard));
+            this.lblNumber = new System.Windows.Forms.Label();
+            this.lblDice = new System.Windows.Forms.Label();
             this.buttkperc = new System.Windows.Forms.Button();
             this.buttk20 = new System.Windows.Forms.Button();
             this.buttk12 = new System.Windows.Forms.Button();
@@ -35,9 +38,28 @@
             this.buttk8 = new System.Windows.Forms.Button();
             this.buttk6 = new System.Windows.Forms.Button();
             this.buttk4 = new System.Windows.Forms.Button();
-            this.lblNumber = new System.Windows.Forms.Label();
-            this.lblDice = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // lblNumber
+            // 
+            this.lblNumber.AutoSize = true;
+            this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNumber.Location = new System.Drawing.Point(221, 236);
+            this.lblNumber.Name = "lblNumber";
+            this.lblNumber.Size = new System.Drawing.Size(107, 55);
+            this.lblNumber.TabIndex = 7;
+            this.lblNumber.Text = "0 %";
+            // 
+            // lblDice
+            // 
+            this.lblDice.AutoSize = true;
+            this.lblDice.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblDice.Location = new System.Drawing.Point(206, 429);
+            this.lblDice.Name = "lblDice";
+            this.lblDice.Size = new System.Drawing.Size(122, 31);
+            this.lblDice.TabIndex = 8;
+            this.lblDice.Text = "THROW";
+            this.lblDice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttkperc
             // 
@@ -129,27 +151,6 @@
             this.buttk4.UseVisualStyleBackColor = true;
             this.buttk4.Click += new System.EventHandler(this.buttk4_Click);
             // 
-            // lblNumber
-            // 
-            this.lblNumber.AutoSize = true;
-            this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblNumber.Location = new System.Drawing.Point(221, 236);
-            this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(107, 55);
-            this.lblNumber.TabIndex = 7;
-            this.lblNumber.Text = "0 %";
-            // 
-            // lblDice
-            // 
-            this.lblDice.AutoSize = true;
-            this.lblDice.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblDice.Location = new System.Drawing.Point(181, 406);
-            this.lblDice.Name = "lblDice";
-            this.lblDice.Size = new System.Drawing.Size(122, 31);
-            this.lblDice.TabIndex = 8;
-            this.lblDice.Text = "THROW";
-            this.lblDice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Gameboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -164,6 +165,7 @@
             this.Controls.Add(this.buttk8);
             this.Controls.Add(this.buttk6);
             this.Controls.Add(this.buttk4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Gameboard";
             this.Text = "Gameboard";
             this.ResumeLayout(false);

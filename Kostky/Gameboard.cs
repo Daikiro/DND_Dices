@@ -17,10 +17,13 @@ namespace Kostky
         Point percZeroCif = new Point(221, 236);
         Point percOneCif = new Point(205, 236);
         Point percTwoCif = new Point (199, 236);
+        Point throwDiceOnInit = new Point (206, 429);
+        Point throwDice = new Point(181, 406);
 
         public Gameboard()
         {
             InitializeComponent();
+            lblDice.Location = throwDiceOnInit;
             lblDice.Text = "THROW";
         }
 
@@ -68,6 +71,7 @@ namespace Kostky
 
         private void k_switcher(int value)
         {
+            lblDice.Location = throwDice;
             String baseValue = "You throwed:\n";
             switch (value)
             {

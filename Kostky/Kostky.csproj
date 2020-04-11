@@ -104,5 +104,8 @@
   <ItemGroup>
     <None Include="rsc\k4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="rsc\diceSet.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

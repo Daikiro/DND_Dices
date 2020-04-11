@@ -63,6 +63,16 @@ namespace Kostky.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diceSet {
+            get {
+                object obj = ResourceManager.GetObject("diceSet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap k10 {
             get {
                 object obj = ResourceManager.GetObject("k10", resourceCulture);
