@@ -28,119 +28,126 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttkperc = new System.Windows.Forms.Button();
+            this.buttk20 = new System.Windows.Forms.Button();
+            this.buttk12 = new System.Windows.Forms.Button();
+            this.buttk10 = new System.Windows.Forms.Button();
+            this.buttk8 = new System.Windows.Forms.Button();
+            this.buttk6 = new System.Windows.Forms.Button();
+            this.buttk4 = new System.Windows.Forms.Button();
             this.lblNumber = new System.Windows.Forms.Label();
             this.lblDice = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button7
+            // buttkperc
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Image = global::Kostky.Properties.Resources.kperc;
-            this.button7.Location = new System.Drawing.Point(375, 375);
-            this.button7.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button7.MinimumSize = new System.Drawing.Size(150, 150);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(150, 150);
-            this.button7.TabIndex = 6;
-            this.button7.UseVisualStyleBackColor = true;
+            this.buttkperc.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttkperc.Image = global::Kostky.Properties.Resources.kperc;
+            this.buttkperc.Location = new System.Drawing.Point(375, 375);
+            this.buttkperc.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttkperc.MinimumSize = new System.Drawing.Size(150, 150);
+            this.buttkperc.Name = "buttkperc";
+            this.buttkperc.Size = new System.Drawing.Size(150, 150);
+            this.buttkperc.TabIndex = 6;
+            this.buttkperc.UseVisualStyleBackColor = true;
+            this.buttkperc.Click += new System.EventHandler(this.buttkperc_Click);
             // 
-            // button6
+            // buttk20
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Image = global::Kostky.Properties.Resources.k20;
-            this.button6.Location = new System.Drawing.Point(375, 200);
-            this.button6.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button6.MinimumSize = new System.Drawing.Size(150, 150);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(150, 150);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = true;
+            this.buttk20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk20.Image = global::Kostky.Properties.Resources.k20;
+            this.buttk20.Location = new System.Drawing.Point(375, 200);
+            this.buttk20.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttk20.MinimumSize = new System.Drawing.Size(150, 150);
+            this.buttk20.Name = "buttk20";
+            this.buttk20.Size = new System.Drawing.Size(150, 150);
+            this.buttk20.TabIndex = 5;
+            this.buttk20.UseVisualStyleBackColor = true;
+            this.buttk20.Click += new System.EventHandler(this.buttk20_Click);
             // 
-            // button5
+            // buttk12
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Image = global::Kostky.Properties.Resources.k12;
-            this.button5.Location = new System.Drawing.Point(25, 375);
-            this.button5.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button5.MinimumSize = new System.Drawing.Size(150, 150);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(150, 150);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = true;
+            this.buttk12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk12.Image = global::Kostky.Properties.Resources.k12;
+            this.buttk12.Location = new System.Drawing.Point(25, 375);
+            this.buttk12.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttk12.MinimumSize = new System.Drawing.Size(150, 150);
+            this.buttk12.Name = "buttk12";
+            this.buttk12.Size = new System.Drawing.Size(150, 150);
+            this.buttk12.TabIndex = 4;
+            this.buttk12.UseVisualStyleBackColor = true;
+            this.buttk12.Click += new System.EventHandler(this.buttk12_Click);
             // 
-            // button4
+            // buttk10
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Image = global::Kostky.Properties.Resources.k10;
-            this.button4.Location = new System.Drawing.Point(25, 200);
-            this.button4.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button4.MinimumSize = new System.Drawing.Size(150, 150);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 150);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttk10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk10.Image = global::Kostky.Properties.Resources.k10;
+            this.buttk10.Location = new System.Drawing.Point(25, 200);
+            this.buttk10.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttk10.MinimumSize = new System.Drawing.Size(150, 150);
+            this.buttk10.Name = "buttk10";
+            this.buttk10.Size = new System.Drawing.Size(150, 150);
+            this.buttk10.TabIndex = 3;
+            this.buttk10.UseVisualStyleBackColor = true;
+            this.buttk10.Click += new System.EventHandler(this.buttk10_Click);
             // 
-            // button3
+            // buttk8
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Image = global::Kostky.Properties.Resources.k8;
-            this.button3.Location = new System.Drawing.Point(375, 25);
-            this.button3.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button3.MinimumSize = new System.Drawing.Size(150, 150);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 150);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttk8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk8.Image = global::Kostky.Properties.Resources.k8;
+            this.buttk8.Location = new System.Drawing.Point(375, 25);
+            this.buttk8.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttk8.MinimumSize = new System.Drawing.Size(150, 150);
+            this.buttk8.Name = "buttk8";
+            this.buttk8.Size = new System.Drawing.Size(150, 150);
+            this.buttk8.TabIndex = 2;
+            this.buttk8.UseVisualStyleBackColor = true;
+            this.buttk8.Click += new System.EventHandler(this.buttk8_Click);
             // 
-            // button2
+            // buttk6
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Image = global::Kostky.Properties.Resources.k6;
-            this.button2.Location = new System.Drawing.Point(200, 25);
-            this.button2.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button2.MinimumSize = new System.Drawing.Size(150, 150);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 150);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttk6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk6.Image = global::Kostky.Properties.Resources.k6;
+            this.buttk6.Location = new System.Drawing.Point(200, 25);
+            this.buttk6.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttk6.MinimumSize = new System.Drawing.Size(150, 150);
+            this.buttk6.Name = "buttk6";
+            this.buttk6.Size = new System.Drawing.Size(150, 150);
+            this.buttk6.TabIndex = 1;
+            this.buttk6.UseVisualStyleBackColor = true;
+            this.buttk6.Click += new System.EventHandler(this.buttk6_Click);
             // 
-            // button1
+            // buttk4
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Image = global::Kostky.Properties.Resources.k41;
-            this.button1.Location = new System.Drawing.Point(25, 25);
-            this.button1.MaximumSize = new System.Drawing.Size(150, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 150);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttk4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk4.Image = global::Kostky.Properties.Resources.k41;
+            this.buttk4.Location = new System.Drawing.Point(25, 25);
+            this.buttk4.MaximumSize = new System.Drawing.Size(150, 150);
+            this.buttk4.Name = "buttk4";
+            this.buttk4.Size = new System.Drawing.Size(150, 150);
+            this.buttk4.TabIndex = 0;
+            this.buttk4.UseVisualStyleBackColor = true;
+            this.buttk4.Click += new System.EventHandler(this.buttk4_Click);
             // 
             // lblNumber
             // 
             this.lblNumber.AutoSize = true;
             this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblNumber.Location = new System.Drawing.Point(239, 227);
+            this.lblNumber.Location = new System.Drawing.Point(246, 224);
             this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(249, 91);
+            this.lblNumber.Size = new System.Drawing.Size(0, 91);
             this.lblNumber.TabIndex = 7;
-            this.lblNumber.Text = "label1";
             // 
             // lblDice
             // 
             this.lblDice.AutoSize = true;
-            this.lblDice.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblDice.Location = new System.Drawing.Point(181, 375);
+            this.lblDice.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblDice.Location = new System.Drawing.Point(181, 406);
             this.lblDice.Name = "lblDice";
-            this.lblDice.Size = new System.Drawing.Size(181, 39);
+            this.lblDice.Size = new System.Drawing.Size(122, 31);
             this.lblDice.TabIndex = 8;
-            this.lblDice.Text = "You used:";
+            this.lblDice.Text = "THROW";
+            this.lblDice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Gameboard
             // 
@@ -149,13 +156,13 @@
             this.ClientSize = new System.Drawing.Size(550, 549);
             this.Controls.Add(this.lblDice);
             this.Controls.Add(this.lblNumber);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttkperc);
+            this.Controls.Add(this.buttk20);
+            this.Controls.Add(this.buttk12);
+            this.Controls.Add(this.buttk10);
+            this.Controls.Add(this.buttk8);
+            this.Controls.Add(this.buttk6);
+            this.Controls.Add(this.buttk4);
             this.Name = "Gameboard";
             this.Text = "Gameboard";
             this.ResumeLayout(false);
@@ -165,13 +172,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button buttk4;
+        private System.Windows.Forms.Button buttk6;
+        private System.Windows.Forms.Button buttk8;
+        private System.Windows.Forms.Button buttk10;
+        private System.Windows.Forms.Button buttk12;
+        private System.Windows.Forms.Button buttk20;
+        private System.Windows.Forms.Button buttkperc;
         private System.Windows.Forms.Label lblNumber;
         private System.Windows.Forms.Label lblDice;
     }
