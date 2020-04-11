@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kostky
 {
-    public partial class Form1 : Form
+    public partial class Gameboard : Form
     {
-        public Form1()
+        public Gameboard()
         {
             InitializeComponent();
         }
