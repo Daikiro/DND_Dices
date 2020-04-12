@@ -63,7 +63,8 @@
             // 
             // buttkperc
             // 
-            this.buttkperc.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttkperc.FlatAppearance.BorderSize = 0;
+            this.buttkperc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttkperc.Image = global::Kostky.Properties.Resources.kperc;
             this.buttkperc.Location = new System.Drawing.Point(375, 375);
             this.buttkperc.MaximumSize = new System.Drawing.Size(150, 150);
@@ -76,7 +77,8 @@
             // 
             // buttk20
             // 
-            this.buttk20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk20.FlatAppearance.BorderSize = 0;
+            this.buttk20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttk20.Image = global::Kostky.Properties.Resources.k20;
             this.buttk20.Location = new System.Drawing.Point(375, 200);
             this.buttk20.MaximumSize = new System.Drawing.Size(150, 150);
@@ -89,7 +91,8 @@
             // 
             // buttk12
             // 
-            this.buttk12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk12.FlatAppearance.BorderSize = 0;
+            this.buttk12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttk12.Image = global::Kostky.Properties.Resources.k12;
             this.buttk12.Location = new System.Drawing.Point(25, 375);
             this.buttk12.MaximumSize = new System.Drawing.Size(150, 150);
@@ -102,7 +105,8 @@
             // 
             // buttk10
             // 
-            this.buttk10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk10.FlatAppearance.BorderSize = 0;
+            this.buttk10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttk10.Image = global::Kostky.Properties.Resources.k10;
             this.buttk10.Location = new System.Drawing.Point(25, 200);
             this.buttk10.MaximumSize = new System.Drawing.Size(150, 150);
@@ -115,7 +119,8 @@
             // 
             // buttk8
             // 
-            this.buttk8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk8.FlatAppearance.BorderSize = 0;
+            this.buttk8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttk8.Image = global::Kostky.Properties.Resources.k8;
             this.buttk8.Location = new System.Drawing.Point(375, 25);
             this.buttk8.MaximumSize = new System.Drawing.Size(150, 150);
@@ -128,7 +133,8 @@
             // 
             // buttk6
             // 
-            this.buttk6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk6.FlatAppearance.BorderSize = 0;
+            this.buttk6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttk6.Image = global::Kostky.Properties.Resources.k6;
             this.buttk6.Location = new System.Drawing.Point(200, 25);
             this.buttk6.MaximumSize = new System.Drawing.Size(150, 150);
@@ -141,7 +147,8 @@
             // 
             // buttk4
             // 
-            this.buttk4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttk4.FlatAppearance.BorderSize = 0;
+            this.buttk4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttk4.Image = global::Kostky.Properties.Resources.k41;
             this.buttk4.Location = new System.Drawing.Point(25, 25);
             this.buttk4.MaximumSize = new System.Drawing.Size(150, 150);
@@ -166,6 +173,9 @@
             this.Controls.Add(this.buttk6);
             this.Controls.Add(this.buttk4);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(566, 588);
+            this.MinimumSize = new System.Drawing.Size(566, 588);
             this.Name = "Gameboard";
             this.Text = "Gameboard";
             this.ResumeLayout(false);
