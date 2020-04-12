@@ -6,7 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Kostky
 {
@@ -29,42 +31,49 @@ namespace Kostky
 
         private void buttk4_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(4);
             k_value(1,5,4);
         }
 
         private void buttk6_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(6);
             k_value(1,7,6);
         }
 
         private void buttk8_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(8);
             k_value(1,9,8);
         }
 
         private void buttk10_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(10);
             k_value(1,11,10);
         }
 
         private void buttk12_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(12);
             k_value(1,13,12);
         }
 
         private void buttk20_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(20);
             k_value(1,21,20);
         }
 
         private void buttkperc_Click(object sender, EventArgs e)
         {
+            playDiceRollSound();
             k_switcher(0);
             k_value(0,110,0);
         }
@@ -191,5 +200,43 @@ namespace Kostky
                     break;
             }
         }
+
+        private void playDiceRollSound()
+        {
+            Random random = new Random();
+            int value = random.Next(1, 7);
+
+            Stream dice = Properties.Resources.DiceRoll__1_;
+
+            switch (value)
+            {
+                case 1:
+                    dice = Properties.Resources.DiceRoll__1_;
+                    break;
+                case 2:
+                    dice = Properties.Resources.DiceRoll__2_;
+                    break;
+                case 3:
+                    dice = Properties.Resources.DiceRoll__3_;
+                    break;
+                case 4:
+                    dice = Properties.Resources.DiceRoll__4_;
+                    break;
+                case 5:
+                    dice = Properties.Resources.DiceRoll__5_;
+                    break;
+                case 6:
+                    dice = Properties.Resources.DiceRoll__6_;
+                    break;
+
+                default:
+                    dice = Properties.Resources.DiceRoll__1_;
+                    break;
+            }
+
+            SoundPlayer snd = new SoundPlayer(dice);
+            snd.Play();
+        }
+
     }
 }
